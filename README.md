@@ -6,18 +6,25 @@ Saya membangunkan alat dalaman yang praktikal untuk institusi tahfiz: rekod hafa
 
 ---
 
-## 🚀 Projek
+## 🚀 Projek Awam
 
 | Projek | Penerangan | Teknologi |
 |---|---|---|
-| [Tuntutan Kelas](https://github.com/munirrr19/tuntutan-kelas) | Guru merekod kelas Al-Quran harian, dan Borang Tuntutan Mengajar bulanan dijana secara automatik. | HTML, Apps Script, Google Sheets, PWA |
-| e-Tasmik MTAQ *(persendirian)* | Merekod Tasmik, Murajaah, Tebuk Juz dan Syahadah dari telefon guru, dengan Rekod Mingguan mengikut borang kertas sekolah. | JavaScript, Apps Script, Cloudflare Pages |
-| MTAQ Tablet Manager *(persendirian)* | Papan pemuka admin dan ejen Android untuk mengurus tablet sekolah, dengan log masuk Google melalui Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
-| [eSumber](https://github.com/munirrr19/esumber) | Tempahan bilik dan dewan dengan semakan atomik untuk mengelakkan tempahan bertindih. Dilengkapi halaman admin dan arkib Google Sheet pilihan. | Cloudflare Workers, D1, JavaScript |
-| Website MTAQ *(persendirian)* | Laman web rasmi sekolah: profil, kurikulum, warga dan berita. | HTML, CSS, JavaScript, WordPress |
-| Carlinkit Detector *(persendirian)* | Mengesan Android Auto melalui dongle Carlinkit pada PC dan Raspberry Pi. | Python, pyusb, Java |
+| [e-Tuntutan Kelas Al-Quran](https://github.com/munirrr19/tuntutan-kelas) | Guru merekod kelas Al-Quran harian melalui link peribadi. Borang Tuntutan Mengajar, senarai penerima imbuhan dan surat claim dijana setiap bulan. Rekod disimpan di telefon dahulu, jadi tidak hilang tanpa internet. | HTML, Apps Script, Google Sheets, PWA |
+| [eSumber](https://github.com/munirrr19/esumber) | Tempahan bilik dan dewan dengan semakan atomik untuk mengelakkan tempahan bertindih. Dilengkapi halaman admin, kad WhatsApp dan arkib Google Sheet pilihan. | Cloudflare Workers, D1, JavaScript |
 
-Repositori bertanda *(persendirian)* ialah sistem dalaman sekolah dan tidak dipaparkan kepada umum.
+Setiap projek disertakan panduan pengguna, panduan admin dan panduan pembangunan dalam Bahasa Melayu.
+
+## 🏫 Sistem Dalaman Sekolah
+
+| Sistem | Penerangan | Teknologi |
+|---|---|---|
+| e-Tasmik MTAQ | Merekod Tasmik, Murajaah, Tebuk Juz dan Syahadah dari telefon guru, dengan Rekod Mingguan mengikut borang kertas sekolah dan Laporan Bulanan setiap halaqah. | JavaScript, Apps Script, Cloudflare Pages |
+| MTAQ Tablet Manager | Papan pemuka admin dan ejen Android untuk mengurus tablet sekolah, dengan log masuk Google melalui Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
+| Website MTAQ | Laman web rasmi sekolah dengan tema blok WordPress sendiri, supaya staf boleh mengemas kini kandungan tanpa kod. | WordPress, PHP, HTML, CSS |
+| Carlinkit Detector | Mengesan Android Auto melalui dongle Carlinkit pada PC dan Raspberry Pi. | Python, pyusb, Java |
+
+Sistem dalaman disimpan dalam repositori persendirian kerana mengandungi data dan tetapan sekolah.
 
 ---
 
