@@ -13,7 +13,7 @@ I build practical internal tools for a tahfiz institution: memorisation records,
 | [Tuntutan Kelas](https://github.com/munirrr19/tuntutan-kelas) | Teachers log daily Quran classes; the monthly teaching claim form is generated automatically. | HTML, Apps Script, Google Sheets, PWA |
 | e-Tasmik MTAQ *(private)* | Records Tasmik, Murajaah, Tebuk Juz and Syahadah from a teacher's phone, with weekly records matching the school's paper form. | JavaScript, Apps Script, Cloudflare Pages |
 | MTAQ Tablet Manager *(private)* | Admin dashboard and Android agent for managing school tablets, with Google sign-in through Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
-| eSumber MTAQ *(private)* | Resource centre room booking with an atomic check that prevents double bookings. | Cloudflare Workers, D1 |
+| [eSumber](https://github.com/munirrr19/esumber) | Room and hall booking with an atomic clash check that prevents double bookings. Includes an admin page and an optional Google Sheet archive. | Cloudflare Workers, D1, JavaScript |
 | Website MTAQ *(private)* | Official school website: profile, curriculum, staff and news. | HTML, CSS, JavaScript, WordPress |
 | Carlinkit Detector *(private)* | Detects Android Auto through a Carlinkit dongle on PC and Raspberry Pi. | Python, pyusb, Java |
 
