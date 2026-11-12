@@ -22,9 +22,15 @@ Setiap projek disertakan panduan pengguna, panduan admin dan panduan pembangunan
 | e-Tasmik MTAQ | Merekod Tasmik, Murajaah, Tebuk Juz dan Syahadah dari telefon guru, dengan Rekod Mingguan mengikut borang kertas sekolah dan Laporan Bulanan setiap halaqah. | JavaScript, Apps Script, Cloudflare Pages |
 | MTAQ Tablet Manager | Papan pemuka admin dan ejen Android untuk mengurus tablet sekolah, dengan log masuk Google melalui Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
 | Website MTAQ | Laman web rasmi sekolah dengan tema blok WordPress sendiri, supaya staf boleh mengemas kini kandungan tanpa kod. | WordPress, PHP, HTML, CSS |
-| Carlinkit Detector | Mengesan Android Auto melalui dongle Carlinkit pada PC dan Raspberry Pi. | Python, pyusb, Java |
 
 Sistem dalaman disimpan dalam repositori persendirian kerana mengandungi data dan tetapan sekolah.
+
+## 🚗 Projek Peribadi
+
+| Projek | Penerangan | Teknologi |
+|---|---|---|
+| CarDeck | App papan pemuka Android Auto: waktu solat JAKIM, cuaca dan radar hujan, kualiti udara, lirik lagu ikut masa, harga minyak mingguan, lokasi parkir dan kalendar. Susun atur laman utama boleh diubah dari telefon. | Kotlin, Android for Cars App Library |
+| Carlinkit Detector | Mengesan Android Auto melalui dongle Carlinkit pada PC dan Raspberry Pi. | Python, pyusb, Java |
 
 ---
 
@@ -32,8 +38,8 @@ Sistem dalaman disimpan dalam repositori persendirian kerana mengandungi data da
 
 - **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Vite
 - **Backend dan awan:** Cloudflare Workers, Cloudflare D1, Hono, Google Apps Script, PHP, WordPress
-- **Mudah alih dan perkakasan:** Kotlin, Java, Python, Raspberry Pi
-- **Data:** SQL (SQLite), Google Sheets
+- **Mudah alih dan perkakasan:** Kotlin, Android Auto (Car App Library), Java, Python, Raspberry Pi
+- **Data dan API:** SQL (SQLite), Google Sheets, Open-Meteo, data.gov.my
 
 ---
 
