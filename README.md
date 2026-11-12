@@ -1,36 +1,35 @@
 # Munir
 
-**Admin IT, Maahad Tahfiz Al-Quran Wal Qiraat (MTAQ)** · Pulai Chondong, Machang, Kelantan
+**IT Administrator, Maahad Tahfiz Al-Quran Wal Qiraat (MTAQ)** · Pulai Chondong, Machang, Kelantan
 
-Saya membangunkan sistem digital untuk institusi tahfiz: rekod hafazan, tempahan bilik, pengurusan peranti dan laman web sekolah.
-I build practical internal tools that reduce administrative work for teachers.
+I build practical internal tools for a tahfiz institution: memorisation records, room booking, device management and the school website. The goal is simple: reduce administrative work so teachers can focus on teaching.
 
 ---
 
-## Projek
+## 🚀 Projects
 
-| Projek | Penerangan | Teknologi |
+| Project | Description | Tech |
 |---|---|---|
-| [Tuntutan Kelas](https://github.com/munirrr19/tuntutan-kelas) | Rekod kelas Al-Quran harian dan penjanaan Borang Tuntutan Mengajar bulanan secara automatik. | HTML, Apps Script, Google Sheets, PWA |
-| e-Tasmik MTAQ *(private)* | Rekod Tasmik, Murajaah, Tebuk Juz dan Syahadah dari telefon guru, dengan Rekod Mingguan mengikut borang sekolah. | JavaScript, Apps Script, Cloudflare Pages |
-| MTAQ Tablet Manager *(private)* | Papan pemuka admin dan ejen Android untuk mengurus tablet sekolah, dengan log masuk Google melalui Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
-| eSumber MTAQ *(private)* | Tempahan bilik Pusat Sumber dengan semakan atomik untuk mengelakkan tempahan bertindih. | Cloudflare Workers, D1 |
-| Website MTAQ *(private)* | Laman web rasmi sekolah: profil, kurikulum, warga dan berita. | HTML, CSS, JavaScript, WordPress |
-| Carlinkit Detector *(private)* | Pengesan Android Auto melalui dongle Carlinkit pada PC dan Raspberry Pi. | Python, pyusb, Java |
+| [Tuntutan Kelas](https://github.com/munirrr19/tuntutan-kelas) | Teachers log daily Quran classes; the monthly teaching claim form is generated automatically. | HTML, Apps Script, Google Sheets, PWA |
+| e-Tasmik MTAQ *(private)* | Records Tasmik, Murajaah, Tebuk Juz and Syahadah from a teacher's phone, with weekly records matching the school's paper form. | JavaScript, Apps Script, Cloudflare Pages |
+| MTAQ Tablet Manager *(private)* | Admin dashboard and Android agent for managing school tablets, with Google sign-in through Cloudflare Access. | React, TypeScript, Hono, Cloudflare D1, Kotlin |
+| eSumber MTAQ *(private)* | Resource centre room booking with an atomic check that prevents double bookings. | Cloudflare Workers, D1 |
+| Website MTAQ *(private)* | Official school website: profile, curriculum, staff and news. | HTML, CSS, JavaScript, WordPress |
+| Carlinkit Detector *(private)* | Detects Android Auto through a Carlinkit dongle on PC and Raspberry Pi. | Python, pyusb, Java |
 
-Repo bertanda *(private)* ialah sistem dalaman sekolah dan tidak didedahkan kepada umum.
+Repositories marked *(private)* are internal school systems and are not publicly visible.
 
 ---
 
-## Teknologi
+## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Vite
-- **Backend dan cloud:** Cloudflare Workers, Cloudflare D1, Hono, Google Apps Script, PHP, WordPress
-- **Mudah alih dan perkakasan:** Kotlin, Java, Python, Raspberry Pi
+- **Backend and cloud:** Cloudflare Workers, Cloudflare D1, Hono, Google Apps Script, PHP, WordPress
+- **Mobile and hardware:** Kotlin, Java, Python, Raspberry Pi
 - **Data:** SQL (SQLite), Google Sheets
 
 ---
 
-## Hubungi
+## 📫 Contact
 
-Terbuka untuk kerjasama dalam teknologi pendidikan dan sistem sekolah tahfiz. Hubungi melalui GitHub Issues atau Discussions pada repo awam saya.
+Open to collaboration on education technology and school systems. Reach me through GitHub Issues or Discussions on my public repositories.
